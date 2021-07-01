@@ -1,10 +1,12 @@
 <script>
   import List from "./lib/List.svelte";
+  import logo from "./assets/logo.svg";
 </script>
 
 <main>
   <header>
     <div class="container">
+      <img class="logo" src={logo} alt="MC Mirrors" />
       <h1>MC Mirrors</h1>
       <h2>Пользовательские зеркала для лаунчеров Minecraft</h2>
     </div>
@@ -29,7 +31,7 @@
 
 <style>
   header {
-    padding: 12rem 0;
+    padding: 6rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +39,9 @@
     background-color: #f4f5f6;
   }
   .content {
-    padding: 6rem;
+    padding: 6rem 0;
+  }
+  .logo {
+    margin-bottom: 4rem;
   }
 </style>
