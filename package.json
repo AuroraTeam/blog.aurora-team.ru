@@ -1,0 +1,23 @@
+{
+  "name": "mc-mirrors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server site --files site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoCat/mc-mirrors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoCat/mc-mirrors/issues"
+  },
+  "homepage": "https://github.com/JoCat/mc-mirrors#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.4"
+  }
+}
