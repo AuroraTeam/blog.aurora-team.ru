@@ -6,9 +6,83 @@ header {
   text-align: center;
   background-color: #f4f5f6;
 }
+
 .content {
-  padding: 6rem 15px;
+  padding: 15px;
 }
+
+.content h3 {
+  text-align: center;
+  margin: 4rem 0;
+}
+
 .logo {
   margin-bottom: 4rem;
+}
+
+hr {
+  margin: 2rem 0;
+  border-color: #e6e7eb;
+}
+
+.prices {
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.prices .column {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 80rem) {
+  .prices .column {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+.price-block {
+  height: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e6e7eb;
+}
+
+.price-block .title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.price-block .price {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.price-block .price-sub {
+  font-size: 24px;
+}
+
+.price-block .included {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.price-block ul {
+  margin-bottom: 0;
+}
+
+footer {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Utils */
+
+.text-center {
+  text-align: center;
+}
+
+.m-0 {
+  margin: 0;
 }
