@@ -14,6 +14,8 @@ params:
   comments: true
   env: production
   DateFormat: 2 January 2006
+  image: android-chrome-512x512.png
+  description: Блог о всяком разном
 
 menu:
   main:

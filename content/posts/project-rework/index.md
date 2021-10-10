@@ -5,7 +5,7 @@ tags: ["Minecraft", "Зеркала"]
 cover:
   image: "closed.png" # image path/url
   caption: 'Вот и подошёл к концу мой небольшой "эксперимент". В принципе результат ожидаем :)'
-ShowToc: true
+description: "Ожидания и реальность, маленькие итоги и дальнейшая судьба проекта"
 ---
 
 # TL;DR
