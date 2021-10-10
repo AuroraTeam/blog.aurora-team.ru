@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Host: https://mc-mirrors.ru/
-Sitemap: https://mc-mirrors.ru/sitemap.xml

@@ -1,0 +1,22 @@
+baseURL: https://mc-mirrors.ru/
+languageCode: ru-ru
+title: MC Mirrors Blog
+theme: PaperMod
+
+defaultContentLanguage: ru
+disqusShortname: mcmirrors
+
+params:
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  author: JCat
+  comments: true
+  env: production
+
+menu:
+  main:
+    - identifier: aurora
+      name: Aurora Team Project's
+      url: https://aurora-team.ru
+      weight: 10
