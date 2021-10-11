@@ -27,6 +27,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_SERVER_IP }}
+          port: ${{ secrets.SSH_SERVER_PORT }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
@@ -34,11 +35,12 @@ jobs:
             rm -rf *
 
       - name: Deploying the site
-        uses: easingthemes/ssh-deploy@v2.1.5
+        uses: easingthemes/ssh-deploy@main
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REMOTE_HOST: ${{ secrets.SSH_SERVER_IP }}
           REMOTE_USER: ${{ secrets.SSH_USER }}
+          REMOTE_PORT: ${{ secrets.SSH_SERVER_PORT }}
           SOURCE: "public/"
           TARGET: ${{ secrets.SITE_DIR }}
 
