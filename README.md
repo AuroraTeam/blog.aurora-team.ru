@@ -1,7 +1,7 @@
 https://gohugo.io/getting-started/quick-start/
 
 Add Some Content  
-hugo new posts/my-first-post.md
+hugo new --kind post posts/my-post
 
 Start the Hugo server  
 hugo server -D
