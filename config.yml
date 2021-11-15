@@ -1,18 +1,19 @@
-baseURL: https://mc-mirrors.ru/
+baseURL: https://blog.aurora-team.ru/
 languageCode: ru-ru
-title: MC Mirrors Blog
+title: Aurora Team Blog
 theme: PaperMod
 
 defaultContentLanguage: ru
-disqusShortname: mcmirrors
+disqusShortname: aurorateam
 
 params:
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
   author: JCat
   comments: true
-  # env: production
+  env: production
   DateFormat: 2 January 2006
   description: Блог о всяком разном
 
