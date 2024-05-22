@@ -17,6 +17,8 @@ params:
   env: production
   DateFormat: 2 January 2006
   description: Блог о всяком разном
+  label:
+    icon: /favicon-32x32.png
 
 menu:
   main:
