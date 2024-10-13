@@ -1,7 +1,7 @@
 ---
 title: "Сборка игровых клиентов Minecraft"
 date: 2021-10-11T21:34:02+03:00
-tags: []
+tags: ["Minecraft", "Клиенты"]
 cover:
   image: "poster.png"
   relative: true

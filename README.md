@@ -6,4 +6,4 @@ hugo new --kind post posts/my-post
 Start the Hugo server  
 hugo server -D
 
-https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/
+https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#installingupdating-papermod

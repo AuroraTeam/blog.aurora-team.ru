@@ -1,7 +1,7 @@
 ---
 title: "Как создать своё зеркало"
 date: 2021-10-17T00:22:00+03:00
-tags: []
+tags: ["Minecraft", "Зеркала"]
 cover:
   image: "mirror.png"
   caption: "Пример того, как может выглядеть зеркало. На картинке шаблон [Apaxy](https://oupala.github.io/apaxy/) для Apache"
