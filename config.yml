@@ -4,7 +4,6 @@ title: Aurora Team Blog
 theme: PaperMod
 
 defaultContentLanguage: ru
-disqusShortname: aurorateam
 enableRobotsTXT: true
 
 params:
