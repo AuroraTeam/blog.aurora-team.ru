@@ -5,6 +5,7 @@ tags: ["Discord"]
 cover:
   image: "poster.jpg"
   caption: "Постер с канала [No Text To Speech](https://youtu.be/0vFWSyGIl00)"
+  relative: true
 summary: "Краткое описание текущей ситуации и информации от том, как можно поддерживать с нами связь"
 ---
 
