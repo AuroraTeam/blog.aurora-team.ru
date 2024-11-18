@@ -1,7 +1,7 @@
 ---
 title: "Блокировка Дискорда Роскомнадзором"
 date: 2024-10-13T20:28:24+03:00
-tags: ["Discord"]
+tags: ["Discord", "Роскомпозор", "Блокировка"]
 cover:
   image: "poster.jpg"
   caption: "Постер с канала [No Text To Speech](https://youtu.be/0vFWSyGIl00)"

@@ -25,3 +25,6 @@ menu:
       name: На основной сайт
       url: https://aurora-team.ru
       weight: 10
+
+imaging:
+  quality: 100
