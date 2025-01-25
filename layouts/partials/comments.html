@@ -1,2 +1,31 @@
-<!-- Позже установить -->
-<!-- https://remark42.com/docs/getting-started/installation/ -->
+<div id="remark42"></div>
+
+<script>
+  const theme = document.body.classList.contains("dark") ? "dark" : "light";
+
+  var remark_config = {
+    host: "https://remark42.jocat.ru",
+    site_id: "remark",
+    locale: "ru",
+    no_footer: true,
+    theme,
+  };
+
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    window.REMARK42.changeTheme(
+      remark_config.theme === "light" ? "dark" : "light"
+    );
+  });
+
+  !(function (e, n) {
+    for (var o = 0; o < e.length; o++) {
+      var r = n.createElement("script"),
+        c = ".js",
+        d = n.head || n.body;
+      "noModule" in r ? ((r.type = "module"), (c = ".mjs")) : (r.async = !0),
+        (r.defer = !0),
+        (r.src = remark_config.host + "/web/" + e[o] + c),
+        d.appendChild(r);
+    }
+  })(remark_config.components || ["embed"], document);
+</script>
